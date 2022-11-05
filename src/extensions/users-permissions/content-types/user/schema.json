@@ -67,20 +67,43 @@
       "type": "text"
     },
     "profile_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "college": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    },
+    "events": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event.event"
+    },
+    "courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::course.course"
+    },
+    "updates": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::update.update"
     }
   }
 }
