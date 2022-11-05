@@ -2225,6 +2225,13 @@
     "@ucast/js" "^3.0.0"
     "@ucast/mongo" "^2.4.0"
 
+"@vscode/sqlite3@5.0.8":
+  "integrity" "sha512-6wvQdMjpi1kwYI5mfzm98siEQb2mlBKX4xdNtJFj/uNqb6wqd3JOhk+5FL7geR0hduXE5lHjv+q69jtsEtUJDA=="
+  "resolved" "https://registry.npmjs.org/@vscode/sqlite3/-/sqlite3-5.0.8.tgz"
+  "version" "5.0.8"
+  dependencies:
+    "node-addon-api" "^4.2.0"
+
 "@webassemblyjs/ast@1.11.1":
   "integrity" "sha512-ukBh14qFLjxTQNTXocdyksN5QdM28S1CxHt2rdskFyL+xFV7VremuBLVbmCePj+URalXBENx/9Lm7lnhihtCSw=="
   "resolved" "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.11.1.tgz"
@@ -7035,6 +7042,11 @@
   "version" "3.28.0"
   dependencies:
     "semver" "^7.3.5"
+
+"node-addon-api@^4.2.0":
+  "integrity" "sha512-73sE9+3UaLYYFmDsFZnqCInzPyh3MqIwZO9cw58yIqAZhONrrabrYyYe3TuIqtIiOuTXVhsGau8hcrhhwSsDIQ=="
+  "resolved" "https://registry.npmjs.org/node-addon-api/-/node-addon-api-4.3.0.tgz"
+  "version" "4.3.0"
 
 "node-addon-api@^5.0.0":
   "integrity" "sha512-CvkDw2OEnme7ybCykJpVcKH+uAOLV2qLqiyla128dN9TkEWfrYmxG6C2boDe5KcNQqZF3orkqzGgOMvZ/JNekA=="
